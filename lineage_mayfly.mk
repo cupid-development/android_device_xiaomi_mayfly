@@ -20,14 +20,10 @@ PRODUCT_MANUFACTURER := Xiaomi
 PRODUCT_MODEL := 2206123SC
 PRODUCT_NAME := lineage_mayfly
 
-PRODUCT_SYSTEM_NAME := mayfly
-PRODUCT_SYSTEM_DEVICE := mayfly
-
 PRODUCT_BUILD_PROP_OVERRIDES += \
-    PRIVATE_BUILD_DESC="mayfly-user 14 UKQ1.231003.002 V816.0.14.0.ULTCNXM release-keys" \
-    TARGET_DEVICE=$(PRODUCT_SYSTEM_DEVICE) \
-    TARGET_PRODUCT=$(PRODUCT_SYSTEM_NAME)
-
-BUILD_FINGERPRINT := Xiaomi/mayfly/mayfly:14/UKQ1.231003.002/V816.0.14.0.ULTCNXM:user/release-keys
+    BuildDesc="mayfly-user 14 UKQ1.231003.002 V816.0.14.0.ULTCNXM release-keys" \
+    BuildFingerprint=Xiaomi/mayfly/mayfly:14/UKQ1.231003.002/V816.0.14.0.ULTCNXM:user/release-keys \
+    DeviceProduct=mayfly \
+    SystemName=mayfly
 
 PRODUCT_GMS_CLIENTID_BASE := android-xiaomi
