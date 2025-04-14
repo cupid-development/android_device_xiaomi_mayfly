@@ -180,6 +180,7 @@
             <usecase>
                 <name>PAL_STREAM_RAW</name>
                 <snd_device_name>handset-mic-unprocessed</snd_device_name>
+                <samplerate>96000</samplerate>
                 <custom-config key="unprocessed-hdr-mic-landscape">
                     <channels>4</channels>
                     <snd_device_name>unprocessed-hdr-mic-landscape</snd_device_name>

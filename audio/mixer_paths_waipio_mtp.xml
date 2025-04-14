@@ -2162,8 +2162,9 @@
     </path>
 
     <path name="handset-mic-unprocessed">
-       <path name="dmic2" />
-       <ctl name="TX_DEC2 Volume" value="102" />
+        <path name="handset-dmic-endfire" />
+        <ctl name="ADC1 Volume" value="12" />
+        <ctl name="ADC4 Volume" value="12" />
     </path>
 
     <path name="ultrasound-handset">
